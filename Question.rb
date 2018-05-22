@@ -14,7 +14,7 @@ class QuestionManager
   def new_question
     first_number = rand(20)
     second_number = rand(20)
-    @current_question = "What does #{first_number} plus #{second_number} equal"
+    @current_question = "What does #{first_number} plus #{second_number} equal?"
     @current_answer = (first_number + second_number).to_s
   end
 
