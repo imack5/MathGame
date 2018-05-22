@@ -1,4 +1,4 @@
-require '.game.rb'
+require './game.rb'
 
 game = Game.new
 
